@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.demo.repository.entity;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -18,4 +18,5 @@ public class CarEntity {
     String brand;
 
     Integer kilowatt;
+
 }

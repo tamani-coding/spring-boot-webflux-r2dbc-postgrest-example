@@ -1,15 +1,15 @@
 package com.example.demo.controller;
 
-import com.example.demo.dto.CarDto;
+import com.example.demo.controller.dto.CarDto;
 import com.example.demo.service.CarService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+@RequiredArgsConstructor
 @RestController
 @RequestMapping("/car")
-@RequiredArgsConstructor
 public class CarController {
 
     private final CarService carService;
